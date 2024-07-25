@@ -9,30 +9,6 @@ CREATE TABLE students (
     phone_number int(10) NOT NULL
 );
 
-insert into
-    students
-values
-    (
-        100,
-        'GF2023123',
-        'Fang Ying',
-        'Sham',
-        'MALE',
-        '2005-06-16',
-        'fang@gmail.com',
-        '99554786'
-    );
-
-(
-    200,
-    'GF2023023',
-    'Mei Mei',
-    'Tan',
-    'FEMALE',
-    '2006-01-23',
-    'mei@gmail.com',
-    '85479624'
-);
 
 CREATE TABLE address (
     id int PRIMARY KEY,
