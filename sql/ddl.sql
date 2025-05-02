@@ -1,14 +1,3 @@
-CREATE TABLE students (
-    id int PRIMARY KEY,
-    roll_no varchar(10) UNIQUE NOT NULL,
-    first_name varchar(100) NOT NULL,
-    last_name varchar(100),
-    gender varchar(10) NOT NULL,
-    date_of_birth date NOT NULL,
-    email varchar(100) UNIQUE,
-    phone_number int(10) NOT NULL
-);
-
 
 CREATE TABLE address (
     id int PRIMARY KEY,
